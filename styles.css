@@ -1,0 +1,97 @@
+h1{
+	color: #c6c6c6;
+	size: 20px;
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;
+	margin: 4px;
+}
+
+
+
+h4{
+	color: #0A6282;
+	size: 16px;
+	text-align: center;
+	font-family: "Arial Narrow", Arial;
+}
+
+body{
+	background-color: #111111;
+	font-family: "Arial Narrow", Arial;
+}
+
+hr{
+	margin: 0px;
+	color: #c6c6c6;
+	height: 2px;
+	background-color: #c6c6c6;
+}
+
+button{
+	background: rgba(60,60,60,0.65);
+  	border: none;
+  	color: #dddddd;
+  	padding: 10px 22px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	outline: none;
+}
+
+div#Menu button{
+	border-radius: 10px 10px 0px 0px;
+	min-width: 20%;
+	margin-left: 4%;
+	margin-bottom: 2px;
+}
+
+div#Menu1 button{
+	border-radius: 20px 20px 20px 20px;
+	min-width: 154px;
+	margin-left: 4%;
+	margin-bottom: 5px;
+}
+
+hr#blue{
+	background-color: #0A6282;
+	height: 4px;
+	border: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: #0A848D;
+}
+
+.Erase{
+	opacity: 0;
+
+}
+
+div div button{
+	min-width: 70px;
+	min-height: 70px;
+	margin: 2.5px 2.5px;
+	border-radius: 35px;
+}
+
+button:hover{
+  background: rgba(60,60,60,0.8);
+  text-decoration: none;
+}
+
+div div button:hover{
+  background-color: rgba(60,60,60,0.65);
+}
+
+br + br + div{
+	text-align: center;
+}
+
+div div{
+	background-color: rgba(60,60,60,0.45);
+	display: inline-block;
+	border-radius: 35px;
+
+}
